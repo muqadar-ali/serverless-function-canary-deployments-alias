@@ -1,5 +1,5 @@
 {
-  "name": "serverless-plugin-canary-deployments",
+  "name": "serverless-plugin-canary-deployments-alias",
   "engines": {
     "node": ">=4.0"
   },
@@ -18,7 +18,7 @@
   ],
   "license": "ISC",
   "repository": {
-    "url": "https://github.com/davidgf/serverless-plugin-canary-deployments.git",
+    "url": "https://github.com/muqadar-ali/serverless-function-canary-deployments-alias.git",
     "type": "git"
   },
   "dependencies": {
