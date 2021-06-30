@@ -164,7 +164,7 @@ class ServerlessCanaryDeployments {
   buildFunctionAlias ({ deploymentSettings = {}, functionName, deploymentGroup }) {
     const { alias } = deploymentSettings
     const functionVersion = this.getVersionNameFor(functionName)
-    const logicalName = `${functionName}Alias${alias}`
+    const logicalName = `${functionName}Alias`
     const beforeHook = this.getFunctionName(deploymentSettings.preTrafficHook)
     const afterHook = this.getFunctionName(deploymentSettings.postTrafficHook)
     const trafficShiftingSettings = {
